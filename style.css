@@ -26,3 +26,11 @@ header{
     text-decoration: none;
     underline
 }
+
+footer {
+    background-color: #d0f5ee;
+    color: black;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
