@@ -1,41 +1,28 @@
-@import url('https://fonts.cdnfonts.com/css/garet');
-@import url('https://fonts.cdnfonts.com/css/telegraf');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-}
-
-body{
-    background: #faf6f3;
 }
 
 :root{
     font-size: 62.5%;
 }
-
 header{
-    background: #ffffff;
-    font-size: 1.2rem;
+    display: flex;
+}
+.logo img{
+    width: 6.5rem;
+}
 
-    .ola-turquia{
-    font-family: 'Garet', sans-serif;
-    font-weight: 100;
-    color:#000000;
-    }
+.ola-turquia{
+    display: inline-block;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.se-aprofunde{}
 
-    .login{ 
-        font-family: 'Telegraf', sans-serif ;
-        color: #7d7d7d;
-        font-weight: 400;
-        
-
-        a{
-            text-decoration: none;
-            color: #7d7d7d;
-            font-weight: 700;
-           
-        }
-    }
+.signup a{
+    text-decoration: none;
+    underline
 }
