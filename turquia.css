@@ -15,7 +15,7 @@ body {
 header {
     position: fixed;
     width: 100%;
-    background: #F8F8FF;
+    background: white;
 }
 
 #div-logo {
@@ -35,7 +35,7 @@ header {
     margin-inline: auto;
     padding: 0 1rem;
     align-items: center;
-    height: 11.4rem;
+    height: 5.5rem;
 }
 
 #ola-turquia {
@@ -52,19 +52,19 @@ header {
 }
 
 #turquesa {
-    background-color: turquoise;
+    background-color: #d0f4ee;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     padding: 0.2rem 0;
     margin: 0;
-    height: 3.6rem;
+    height: 3rem;
 }
 
 #turquesa ul {
     display: flex;
-    gap: 2.6rem;
+    gap: 3rem;
     list-style: none;
     padding-top: 0.2rem;
     justify-content: center;
@@ -73,8 +73,17 @@ header {
 #turquesa a {
     font-size: 1.6rem;
     text-decoration: none;
+    color: black;
 }
 
 main {
-    padding-top: 20rem;
+    padding-top: 10rem;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
 }

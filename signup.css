@@ -3,11 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    font-size: 62.5%;
+}
 
 body{
-    background-color: #b4f7eb;
+    background-color: #d0f4ee;
 }
 
 header{
-    background: #b4f7eb;
+    background: #d0f4ee;
+    display: flex;
+    align-items: center; 
+    gap: 0.8rem;              
+    padding: 1.5rem 2rem;
+}
+
+.logo img {
+    width: 6.5rem;  
+}
+
+.ola-turquia {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
 }
