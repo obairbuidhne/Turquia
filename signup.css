@@ -12,11 +12,18 @@ body{
 }
 
 header{
-    background: #d0f4ee;
     display: flex;
     align-items: center; 
-    gap: 0.8rem;              
-    padding: 1.5rem 2rem;
+    gap: 1rem;              
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+main{
+    position: relative;
+    min-height: 100vh;
+    padding: 4rem 6rem;
 }
 
 .logo img {
@@ -26,4 +33,162 @@ header{
 .ola-turquia {
     font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 1.5rem;
+}
+
+.texto-principal{
+    font-family: 'Montserrat', sans-serif;
+    margin: 18.4rem 18.4rem;
+    width: 45%;
+    line-height: 1.4;
+    align-items: center;
+    margin-top: 8rem;
+    margin-left: 10rem;
+}
+
+.ei{
+    color: #005c53;
+    
+}
+
+h2{
+    font-size: 8rem;
+}
+
+h3{
+    font-size: 2.5rem;
+}
+
+p{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.valor{
+    color: #005c53;
+    font-weight: 600;
+}
+
+.muito-mais{
+    color: #005c53;
+    font-weight: 600;
+}
+.conhecer{
+    font-weight: 1000;
+}
+
+
+.formulario-cadastro {
+    max-width: 45rem;
+    margin: 4rem auto;
+    background: #ffffff;
+    padding: 2rem 2rem;
+    border-radius: 2rem;
+    margin-right: 15rem;
+    text-align: center;
+    position: absolute;
+    right: 12rem;
+    width: 40rem;
+    top: -4rem;
+    
+}
+
+.formulario-cadastro h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    margin-bottom: 0.6rem;
+    color: #333333;
+}
+
+.login-link {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.login-link a {
+    color: #ff6a00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 1.3rem;
+    margin-bottom: 1.4rem;
+    border-radius: 0.6rem;
+    border: 0.2rem solid #d9b296;
+    font-size: 1.5rem;
+}
+
+.novidades {
+    text-align: left;
+    margin: 1rem 0 2rem 0;
+}
+
+.novidades h2 {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 0.5rem;
+    color: #333333;
+    font-family: 'Arial', sans-serif
+}
+
+.novidades p {
+    font-size: 1.35rem;
+    color: #555555;
+    margin-bottom: 1rem;
+}
+
+.opcao {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.opcao input {
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+.termos {
+    display: flex;
+    align-items: flex-start; 
+    gap: 0.8rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.termos input{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.3rem; 
+}
+
+.termos p {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.termos a {
+    color: #39a3ff;
+    text-decoration: none;
+}
+
+.finalizar {
+    width: 100%;
+    padding: 1.3rem;
+    background: #39a3ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: 0.2s;
+}
+
+.finalizar:hover {
+    background: #2585dd;
 }

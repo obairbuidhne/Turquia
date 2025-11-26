@@ -84,22 +84,3 @@ header {
 main {
     padding-top: 10rem;
 }
-
-#contato {
-    background: #20232a;
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    font-size: 1em;
-  }
-  #contato a {
-    color: #ffffff;
-    text-decoration: underline;
-  }
-  #contato h4 {
-    margin-bottom: 10px;
-  }
-  #contato p {
-    margin: 6px 0;
-  }

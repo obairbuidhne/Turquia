@@ -58,7 +58,6 @@ main img {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
     z-index: -1; 
 }
 
@@ -100,8 +99,9 @@ main form {
     }
 }
 
-.crie{
+a {
     color: orangered;
+    text-decoration: none;
 }
 
 form input {
@@ -138,9 +138,6 @@ form input {
     cursor: pointer;
     margin-bottom: 2rem;
 }
-.redes{
-    display: flex;
-    justify-content: space-between;
-}
+
 
 

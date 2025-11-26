@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background: white;
+}
+
+#div-logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    img {
+        width: 8rem;
+        }
+}
+
+#funcionaporfavor {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1350px;
+    margin-inline: auto;
+    padding: 0 1rem;
+    align-items: center;
+    height: 5.5rem;
+}
+
+#ola-turquia {
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+#cultura {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(107, 107, 107);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#turquesa {
+    background-color: #d0f4ee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0.2rem 0;
+    margin: 0;
+    height: 3rem;
+}
+
+#turquesa ul {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    padding-top: 0.2rem;
+    justify-content: center;
+}
+
+#turquesa a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: black;
+}
+
+#turquesa a:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+main {
+    padding-top: 10rem;
+}
+
+main img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1; 
+}
+
+main h1 {
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+    margin: 10px 0; 
+}
+
+main iframe{
+    max-width: 75rem;
+    max-height: 42rem;
+    display: flex;
+    gap: 4rem;
+    padding: 2rem;
+}
+
+#curiosidades iframe:nth-child(1) {
+    position: absolute;
+    top: 16rem;
+    left: 5.5rem;
+}
+
+#curiosidades iframe:nth-child(2) {
+    position: absolute;
+    top: 39rem;
+    left: 55.5rem;
+    z-index: 3;
+}
+
+#curiosidades iframe:nth-child(3) {
+    position: absolute;
+    top: 62rem;
+    left: 5.5rem;
+    z-index: 4;
+}
+
+#curiosidades iframe:nth-child(4) {
+    position: absolute;
+    top: 85rem;
+    left: 55.5rem;
+    z-index: 5;
+}
+
+#curiosidades iframe:nth-child(5) {
+    position: absolute;
+    top: 108rem;
+    left: 5.5rem;
+    z-index: 6;
+}
+
+#curiosidades iframe:nth-child(6) {
+    position: absolute;
+    top: 131rem;
+    left: 55.5rem;
+    z-index: 7;
+}
+
+#curiosidades iframe:nth-child(7) {
+    position: absolute;
+    top: 154rem;
+    left: 5.5rem;
+    z-index: 8;
+}
+
+#curiosidades iframe:nth-child(8) {
+    position: absolute;
+    top: 177rem;
+    left: 55.5rem;
+    z-index: 9;
+}
+
+#curiosidades iframe:nth-child(9) {
+    position: absolute;
+    top: 198.3rem;
+    left: 5.5rem;
+    z-index: 10;
+}
