@@ -16,6 +16,7 @@ header {
     position: fixed;
     width: 100%;
     background: white;
+    z-index: 11;
 }
 
 #div-logo {
@@ -48,7 +49,12 @@ header {
     font-family: 'Montserrat', sans-serif;
     color: rgb(107, 107, 107);
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+}
+
+#curiosidades-pagina {
+    max-width: 1220px;
+    margin-inline: auto;
 }
 
 #turquesa {
@@ -74,8 +80,6 @@ header {
     font-size: 1.6rem;
     text-decoration: none;
     color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 1000;
 }
 
 #turquesa a:hover {
@@ -85,6 +89,10 @@ header {
 
 main {
     padding-top: 10rem;
+    background-image: url("https://i.pinimg.com/736x/60/31/0f/60310fc4a0c87368f4b4e0df529e4cf9.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main img {
@@ -104,100 +112,66 @@ main h1 {
     margin: 10px 0; 
 }
 
-#curiosidades {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 3rem;
-    width: 100%;
+
+
+#curiosidades iframe:nth-child(1) {
+    position: relative;
+    top: 16rem;
+    left: 5.5rem;
 }
 
-#curiosidades iframe {
-    width: 100%;
-    max-width: 85rem;
-    height: 48rem;
-    border-radius: 2rem;
+#curiosidades iframe:nth-child(2) {
+    position: relative;
+    top: 39rem;
+    left: 55.5rem;
+    z-index: 3;
 }
 
-.footer {
-    background: #d2f4f1;
-    text-align: center;
-    padding: 3.5rem 2rem;
-    font-family: Arial, sans-serif;
-    color: #000;
+#curiosidades iframe:nth-child(3) {
+    position: relative;
+    top: 62rem;
+    left: 5.5rem;
+    z-index: 4;
 }
 
-.footer-top {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 2rem;
+#curiosidades iframe:nth-child(4) {
+    position: relative;
+    top: 85rem;
+    left: 55.5rem;
+    z-index: 5;
 }
 
-.flag {
-    width: 4rem;
+#curiosidades iframe:nth-child(5) {
+    position: relative;
+    top: 108rem;
+    left: 5.5rem;
+    z-index: 6;
 }
 
-.footer-links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.8rem;
-    margin-bottom: 2rem;
-    font-size: 1.4rem;
+#curiosidades iframe:nth-child(6) {
+    position: relative;
+    top: 131rem;
+    left: 55.5rem;
+    z-index: 7;
 }
 
-.footer-links a {
-    text-decoration: none;
-    color: #000;
+#curiosidades iframe:nth-child(7) {
+    position: relative;
+    top: 154rem;
+    left: 5.5rem;
+    z-index: 8;
 }
 
-.footer-social {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2.5rem;
-    margin-bottom: 2rem;
+#curiosidades iframe:nth-child(8) {
+    position: relative;
+    top: 177rem;
+    left: 55.5rem;
+    z-index: 9;
 }
 
-.footer-social .icons {
-    display: flex;
-    gap: 1.2rem;
-}
-
-.footer-social img {
-    width: 2.2rem;
-    height: 2.2rem;
-}
-
-hr {
-    border: none;
-    border-top: 0.1rem solid #000;
-    width: 90%;
-    margin: 1.5rem auto;
-}
-
-copyright {
-    font-size: 1.2rem;
-    line-height: 1.4;
-}
-#cultura2{
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(107, 107, 107);
-    font-weight: bold;
-    font-size: 1.4rem;
-}
-
-.imagens {
-    display: block;
-    margin: 0 auto;
-    width: 50rem;
-    border-radius: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-h3{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+#curiosidades iframe:nth-child(9) {
+    position: relative;
+    top: 198.3rem;
+    left: 5.5rem;
+    z-index: 10;
 }
