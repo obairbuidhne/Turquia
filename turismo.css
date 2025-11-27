@@ -48,7 +48,7 @@ header {
     font-family: 'Montserrat', sans-serif;
     color: rgb(107, 107, 107);
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 #turquesa {
@@ -60,6 +60,8 @@ header {
     padding: 0.2rem 0;
     margin: 0;
     height: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
 }
 
 #turquesa ul {
@@ -83,34 +85,139 @@ header {
 
 main {
     padding-top: 10rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
-#pontos-turisticos-titulo {
+#turismo-pagina{
     background: #d0f4ee;
-    padding: 40px;
-    border-radius: 10px;
-    margin: 30px auto;
-    padding: 20px;
-    max-width: 800px;
-    max-height: 100%;
-    border-radius: 10px;
+    border-radius: 1rem;
+    margin: 3rem auto;
+    padding: 1rem;
+    max-width: 85rem;
     text-align: left;
     justify-content: center;
     align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#turismo-pagina h1{
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
 }
 
 #pontos-turisticos{
     background: white;
-    padding: 30px;
-    border-radius: 10px;
-    padding: 40px;
-    border-radius: 10px;
-    margin: 30px auto;
-    padding: 20px;
-    max-width: 700px;
+    padding: 3rem;
+    border-radius: 1rem;
+    padding: 4rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 2rem;
+    max-width: 80rem;
     max-height: 99%;
-    border-radius: 10px;
+    border-radius: 1rem;
     text-align: left;
     justify-content: center;
     align-items: center;
+}
+
+#pontos-turisticos p{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+#pontos-turisticos h2{
+    font-size: 2.5rem;
+}
+
+#pontos-turisticos h3{
+    font-size: 1.9rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#pontos-turisticos img{
+    max-width: 75rem;
+    max-height: 55rem;
+}
+
+#pontos-turisticos-titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#4c525e;
+}
+.footer {
+    background: #d2f4f1;
+    text-align: center;
+    padding: 3.5rem 2rem;
+    font-family: Arial, sans-serif;
+    color: #000;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.flag {
+    width: 4rem;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.8rem;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.footer-social .icons {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.footer-social img {
+    width: 2.2rem;
+    height: 2.2rem;
+}
+
+hr {
+    border: none;
+    border-top: 0.1rem solid #000;
+    width: 90%;
+    margin: 1.5rem auto;
+}
+
+copyright {
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.imagens{
+    display: block;
+    margin: 0 auto;
+    width: 50rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
