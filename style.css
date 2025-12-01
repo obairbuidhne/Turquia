@@ -50,7 +50,7 @@ header {
     font-family: 'Montserrat', sans-serif;
     color: rgb(95, 95, 95);
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 #turquesa {
@@ -162,6 +162,10 @@ main {
 
 .lateral{
     padding: 2rem;
+}
+
+.lado{
+    padding: 0 0 0 2rem;
 }
 
 .welcome{
