@@ -252,8 +252,4 @@ h3{
     margin-bottom: 1rem;
 }
 
-@media(max-width: 760px) {
-    body {
-        padding-inline: 1rem;
-    }
-}
+@media(max-width: 760px)
