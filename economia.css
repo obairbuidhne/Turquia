@@ -251,3 +251,9 @@ hr {
     margin-bottom: -2.5rem;
     margin-top: -0.5rem;
 }
+
+@media(max-width: 760px) {
+    body {
+        padding-inline: 1rem;
+    }
+}

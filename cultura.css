@@ -233,3 +233,9 @@ hr {
 .texto1{
     padding: 0.2rem 2.3rem;
 }
+
+@media(max-width: 760px) {
+    body {
+        padding-inline: 1rem;
+    }
+}

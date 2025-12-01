@@ -272,3 +272,9 @@ hr {
     line-height: 1.4;
     margin-top: 2rem;
 }
+
+@media(max-width: 760px) {
+    body {
+        padding-inline: 1rem;
+    }
+}

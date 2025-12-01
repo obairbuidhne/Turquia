@@ -212,3 +212,9 @@ hr {
 .lateral{
     padding: 0.2rem 0.2rem 0.2rem 2rem;
 }
+
+@media(max-width: 760px) {
+    body {
+        padding-inline: 1rem;
+    }
+}

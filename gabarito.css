@@ -205,3 +205,9 @@ hr {
  #resposta{
     color: #000080;
  }
+
+ @media(max-width: 760px) {
+    body {
+        padding-inline: 1rem;
+    }
+}
