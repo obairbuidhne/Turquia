@@ -140,7 +140,6 @@ main {
     display: block;
     margin: 0 auto;
     width: 50rem;
-    border-radius: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -217,4 +216,44 @@ hr {
     body {
         padding-inline: 1rem;
     }
+}
+
+#img1 {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+#img1 img {
+    width: 25rem;
+   }
+
+#img2 {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+#img2 img {
+    width: 35rem;
+}
+
+#img3 {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+#img3 img {
+    width: 35rem;
+}
+
+#img4 {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+#img4 img {
+    width: 35rem;
 }
