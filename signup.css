@@ -48,6 +48,8 @@ main{
 
 .ei{
     color: #005c53;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
     
 }
 
@@ -60,8 +62,9 @@ h3{
 }
 
 p{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: bolder;
+    
 }
 .valor{
     color: #005c53;
@@ -71,9 +74,11 @@ p{
 .muito-mais{
     color: #005c53;
     font-weight: 600;
+    
 }
 .conhecer{
     font-weight: 1000;
+    
 }
 
 
