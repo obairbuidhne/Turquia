@@ -16,6 +16,7 @@ header {
     position: fixed;
     width: 100%;
     background: white;
+    z-index: 11;
     font-family: 'Montserrat', sans-serif;
     z-index: 15;
 }
@@ -48,8 +49,15 @@ header {
 
 #cultura {
     font-family: 'Montserrat', sans-serif;
+    color: rgb(107, 107, 107);
     color: rgb(95, 95, 95);
     font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#curiosidades-pagina {
+    max-width: 1220px;
+    margin-inline: auto;
     font-size: 1.4rem;
 }
 
@@ -110,18 +118,21 @@ main h1 {
     margin: 10px 0; 
 }
 
+
 #curiosidades iframe{
     max-width: 77rem;
 }
 
 #curiosidades iframe:nth-child(1) {
     position: relative;
+    top: 16rem;
     top: 1rem;
     left: 5.5rem;
 }
 
 #curiosidades iframe:nth-child(2) {
     position: relative;
+    top: 39rem;
     top: -19rem;
     left: 55.5rem;
     z-index: 3;
@@ -129,6 +140,7 @@ main h1 {
 
 #curiosidades iframe:nth-child(3) {
     position: relative;
+    top: 62rem;
     top: -39rem;
     left: 5.5rem;
     z-index: 4;
@@ -136,6 +148,7 @@ main h1 {
 
 #curiosidades iframe:nth-child(4) {
     position: relative;
+    top: 85rem;
     top: -59rem;
     left: 55.5rem;
     z-index: 5;
@@ -143,6 +156,7 @@ main h1 {
 
 #curiosidades iframe:nth-child(5) {
     position: relative;
+    top: 108rem;
     top: -79rem;
     left: 5.5rem;
     z-index: 6;
@@ -150,6 +164,7 @@ main h1 {
 
 #curiosidades iframe:nth-child(6) {
     position: relative;
+    top: 131rem;
     top: -99rem;
     left: 55.5rem;
     z-index: 7;
@@ -157,6 +172,7 @@ main h1 {
 
 #curiosidades iframe:nth-child(7) {
     position: relative;
+    top: 154rem;
     top: -109rem;
     left: 5.5rem;
     z-index: 8;
@@ -164,6 +180,7 @@ main h1 {
 
 #curiosidades iframe:nth-child(8) {
     position: relative;
+    top: 177rem;
     top: -129rem;
     left: 55.5rem;
     z-index: 9;
@@ -172,6 +189,7 @@ main h1 {
 
 #curiosidades iframe:nth-child(9) {
     position: relative;
+    top: 198.3rem;
     top: -149.3rem;
     left: 5.5rem;
     z-index: 10;
