@@ -46,9 +46,9 @@ header {
     font-weight: 600;
 }
 
-#cultura {
+#culturatxt {
     font-family: 'Montserrat', sans-serif;
-    color: rgb(128, 123, 123);
+    color: rgb(107, 107, 107);
     font-weight:600 ;
     font-size: 1.4rem;
 }
@@ -124,7 +124,7 @@ main {
     text-align: left;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: rgb(0, 0, 0);
     margin-top: 2rem;
     }
 
