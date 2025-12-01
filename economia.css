@@ -107,6 +107,7 @@ main {
     margin-bottom: 0;
     font-family: Arial, Helvetica, sans-serif;
     color:#4c525e;
+    padding: 0.5rem;
 }
 
 #economia{
@@ -143,6 +144,7 @@ main {
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
 .lira{
     display: block;
     margin: 0 auto;
@@ -151,10 +153,12 @@ main {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
 .lira{
     font-style: italic;
     text-align: center; 
 }
+
 .colheita{
     display: block;
     margin: 0 auto;
@@ -169,73 +173,81 @@ main {
         text-align: center;
     }
 
-    li{
-        font-size: 1.6rem;
-        font-family: Arial, Helvetica, sans-serif;
-    }
+li{
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-    .footer {
-        background: #d2f4f1;
-        text-align: center;
-        padding: 3.5rem 2rem;
-        font-family: Arial, sans-serif;
-        color: #000;
-    }
-    
-    .footer-top {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
-        margin-bottom: 2rem;
-    }
-    
-    .flag {
-        width: 4rem;
-    }
-    
-    .footer-links {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 1.8rem;
-        margin-bottom: 2rem;
-        font-size: 1.4rem;
-    }
-    
-    .footer-links a {
-        text-decoration: none;
-        color: #000;
-    }
-    
-    .footer-social {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 2.5rem;
-        margin-bottom: 2rem;
-    }
-    
-    .footer-social .icons {
-        display: flex;
-        gap: 1.2rem;
-    }
-    
-    .footer-social img {
-        width: 2.2rem;
-        height: 2.2rem;
-    }
-    
-    hr {
-        border: none;
-        border-top: 0.1rem solid #000;
-        width: 90%;
-        margin: 1.5rem auto;
-    }
-    
-    copyright {
-        font-size: 1.2rem;
-        line-height: 1.4;
-    }
-    
-    
+.footer {
+    background: #d2f4f1;
+    text-align: center;
+    padding: 3.5rem 2rem;
+    font-family: Arial, sans-serif;
+    color: #000;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.flag {
+    width: 5rem;
+}
+
+.tentandoresolverodiabodofooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    width: 100%;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    font-size: 1.5rem;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+}
+
+.footer-social img {
+    width: 2.7rem;
+    height: 2.7rem;
+    margin-left: 2rem;
+}
+
+hr {
+    border: none;
+    border-top: 0.1rem solid #000;
+    width: 90%;
+    margin: 1.5rem auto;
+}
+
+.copyright {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-top: 2rem;
+}
+
+.lateral{
+    padding: 2rem;
+    margin-top: 0rem;
+}
+
+#bottom{
+    margin-bottom: -2.5rem;
+    margin-top: -0.5rem;
+}

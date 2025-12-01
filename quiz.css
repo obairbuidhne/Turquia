@@ -10,7 +10,6 @@
 
 body {
     font-size: 1.6rem;
-    font-weight: 1000 ;
 }
 
 header {
@@ -100,15 +99,16 @@ main {
     align-items: center;
 }
 
-#quiz-pagina h1{
+.quiz-titulo h1{
     font-size: 4rem;
     font-weight: 600;
     margin: 2rem;
     margin-top: 1rem;
-    margin-bottom: 0;
+    margin-bottom: 0rem;
+    padding: 0.5rem;
 }
 
-#quiz{
+#quizz{
     background: white;
     padding: 3rem;
     border-radius: 1rem;
@@ -122,34 +122,37 @@ main {
     text-align: left;
     justify-content: center;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
 }
 
-#quiz p{
+#quizz p{
     font-size: 1.6rem;
     margin-top:1rem ;
     margin-bottom: 1rem;
 }
 
-#quiz h2{
+#quizz h2{
     font-size: 2.5rem;
     margin-top:1rem ;
     margin-bottom: 1rem;
 }
 
-#quiz h3{
+#quizz h3{
     font-size: 1.9rem;
 }
+
 .gabarito a{
     text-decoration: none;
     color:#4c525e;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .footer {
     background: #d2f4f1;
     text-align: center;
     padding: 3.5rem 2rem;
     font-family: Arial, sans-serif;
-    font-weight: 100 ;
     color: #000;
 }
 
@@ -157,21 +160,27 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
     margin-bottom: 2rem;
 }
 
 .flag {
-    width: 4rem;
+    width: 5rem;
+}
+
+.tentandoresolverodiabodofooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    width: 100%;
 }
 
 .footer-links {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 1.8rem;
-    margin-bottom: 2rem;
-    font-size: 1.4rem;
+    gap: 2.5rem;
+    font-size: 1.5rem;
 }
 
 .footer-links a {
@@ -181,20 +190,13 @@ main {
 
 .footer-social {
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 2.5rem;
-    margin-bottom: 2rem;
-}
-
-.footer-social .icons {
-    display: flex;
-    gap: 1.2rem;
 }
 
 .footer-social img {
-    width: 2.2rem;
-    height: 2.2rem;
+    width: 2.7rem;
+    height: 2.7rem;
+    margin-left: 2rem;
 }
 
 hr {
@@ -204,7 +206,13 @@ hr {
     margin: 1.5rem auto;
 }
 
-copyright {
+.copyright {
     font-size: 1.2rem;
     line-height: 1.4;
+    margin-top: 2rem;
+}
+
+.gabarito{
+    font-weight: 1000;
+    padding: 0.1rem 0.1rem 0.5rem 2rem;
 }

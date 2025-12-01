@@ -8,136 +8,246 @@
     font-size: 62.5%;
 }
 
+body {
+    font-size: 1.6rem;
+}
+
 header {
-    display: flex;
-    align-items: center; 
-    gap: 2rem;              
-    padding: 1.5rem 2rem;
-}
-
-.logo img {
-    width: 6.5rem;  
-}
-
-.ola-turquia {
-    font-size: 1.2rem;
+    position: fixed;
+    width: 100%;
+    background: white;
     font-family: 'Montserrat', sans-serif;
+    z-index: 5;
 }
 
-.se-aprofunde {
+#div-logo {
     display: flex;
-    margin: auto;
     align-items: center;
     gap: 1rem;
-    font-family: 'Maven Pro', sans-serif;
-    color: rgb(164, 162, 162);
-    font-size: 1.2rem;
-    margin-right: 5rem;
+
+    img {
+        width: 8rem;
+        }
 }
 
-.se-aprofunde a {
-    text-decoration: none;
-    font-family: 'Maven Pro', sans-serif;
-    color: rgb(107, 107, 107);
+#funcionaporfavor {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1350px;
+    margin-inline: auto;
+    padding: 0 1rem;
+    align-items: center;
+    height: 5.5rem;
+}
+
+#ola-turquia {
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+#cultura {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(95, 95, 95);
     font-weight: bold;
-    font-size: 2.4rem;
+    font-size: 1.4rem;
+}
+
+#turquesa {
+    background-color: #d0f4ee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0.2rem 0;
+    margin: 0;
+    height: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+}
+
+#turquesa ul {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    padding-top: 0.2rem;
+    justify-content: center;
+}
+
+#turquesa a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: black;
+}
+
+#turquesa a:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
 }
 
 main {
+    padding-top: 8.5rem;
+    font-family: 'Arial', sans-serif;
+}
+
+#riveira img{
+    width: 100%;
     position: relative;
-    width: 100%;
-    height: calc(100vh - 100px); 
-    display: flex;
-    justify-content: center;   
-    align-items: center;       
 }
 
-main img {
+#riveira p{
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1; 
-}
-
-main form {
-    background: rgba(255, 255, 255, 0.8);
-    padding: 2rem;
-    border-radius: 1rem;
-    backdrop-filter: blur(5px);
-    z-index: 10; 
-}
-
-.formulario{
-    width: 90%;
-    max-width: 65rem;
-    background-color: white;
-    padding: 2rem;
-    border-radius: 1rem;
-    text-align: center;
-    margin: 5rem auto; 
-
-    .textos{
-     display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 2rem;
-    }
-
-    h1{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 4rem;
-        margin-bottom: 1rem;
-    }
-
-    p{
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 1000;
-        font-size: 2rem;
-        margin-bottom: 2rem;
-    }
-}
-
-a {
-    color: orangered;
-    text-decoration: none;
-}
-
-form input {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    width: 100%;
-    padding: 1.2rem;
-    margin-bottom: 1.5rem;
-    border-radius: 0.5rem;
-    border: 0.2rem solid #e0aa8b;
-    font-size: 1.4rem;
-}
-.esqueceu{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold ;
-    display: block;
+    top: 10%;
+    width: 55%;
     text-align: left;
-    margin-bottom: 2rem;
-    font-size: 1.4rem;
-    color: orangered;
+    color: white;
+    padding: 25.5rem 1.7rem;
+    z-index: 1;
+    font-size: 1.7rem;
+}
+
+#riveira a{
+    color: #000080;
     text-decoration: none;
-    
-    
 }
 
-.login-botao{
-    font-weight: bolder;
-    width: 100%;
-    padding: 1.2rem;
-    background-color: #d6f8ef;
-    border: none;
-    border-radius: 2rem;
+#historia-pagina{
+    background: #d0f4ee;
+    border-radius: 1rem;
+    margin: 3rem auto;
+    padding: 1rem;
+    max-width: 85rem;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+#historia-pagina h1{
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    color:#4c525e;
+}
+
+#historia{
+    background: white;
+    padding: 3rem;
+    border-radius: 1rem;
+    padding: 4rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 2rem;
+    max-width: 80rem;
+    max-height: 99%;
+    border-radius: 1rem;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+#historia p{
+    font-size: 1.6rem;
+}
+
+#historia h2{
+    font-size: 2.5rem;
+}
+
+#historia h3{
+    font-size: 1.9rem;
+}
+
+.lateral{
+    padding: 2rem;
+}
+
+.welcome{
     font-size: 2rem;
-    cursor: pointer;
+}
+
+.footer {
+    background: #d2f4f1;
+    text-align: center;
+    padding: 3.5rem 2rem;
+    font-family: Arial, sans-serif;
+    color: #000;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
     margin-bottom: 2rem;
 }
 
+.flag {
+    width: 5rem;
+}
 
+.tentandoresolverodiabodofooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    width: 100%;
+}
 
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    font-size: 1.5rem;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+}
+
+.footer-social img {
+    width: 2.7rem;
+    height: 2.7rem;
+    margin-left: 2rem;
+}
+
+hr {
+    border: none;
+    border-top: 0.1rem solid #000;
+    width: 90%;
+    margin: 1.5rem auto;
+}
+
+.copyright {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-top: 2rem;
+}
+
+#cultura2{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(107, 107, 107);
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.imagens {
+    display: block;
+    margin: 0 auto;
+    width: 50rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+h3{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
