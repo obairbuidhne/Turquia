@@ -101,6 +101,16 @@ main {
     align-items: center;
 }
 
+#total{
+    border-radius: 1rem;
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 85rem;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
 .quiz-titulo h1{
     font-size: 4rem;
     font-weight: 600;
@@ -113,7 +123,6 @@ main {
 }
 
 #quizz{
-    background: white;
     padding: 3rem;
     border-radius: 1rem;
     padding: 4rem;
@@ -126,8 +135,19 @@ main {
     text-align: left;
     justify-content: center;
     align-items: center;
-    font-family: 'Montserrat', sans-serif
+    font-family: 'Montserrat', sans-serif;
     margin-top: 0;
+}
+
+.fora{
+    background: #d0f4ee;
+    border-radius: 1rem;
+    margin: 3rem auto;
+    padding: 1rem;
+    max-width: 85rem;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
 }
 
 #quizz p{
