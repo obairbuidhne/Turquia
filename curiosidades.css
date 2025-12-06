@@ -12,11 +12,12 @@ body {
     font-size: 1.6rem;
 }
 
+/* =================== HEADER =================== */
+
 header {
     position: fixed;
     width: 100%;
     background: white;
-    z-index: 11;
     font-family: 'Montserrat', sans-serif;
     z-index: 15;
 }
@@ -25,10 +26,10 @@ header {
     display: flex;
     align-items: center;
     gap: 1rem;
+}
 
-    img {
-        width: 8rem;
-        }
+#div-logo img {
+    width: 8rem;
 }
 
 #funcionaporfavor {
@@ -54,12 +55,6 @@ header {
     font-size: 1.6rem;
 }
 
-#curiosidades-pagina {
-    max-width: 1220px;
-    margin-inline: auto;
-    font-size: 1.4rem;
-}
-
 #turquesa {
     background-color: #d0f4ee;
     display: flex;
@@ -67,7 +62,6 @@ header {
     justify-content: center;
     width: 100%;
     padding: 0.2rem 0;
-    margin: 0;
     height: 3rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 1000;
@@ -78,7 +72,6 @@ header {
     gap: 3rem;
     list-style: none;
     padding-top: 0.2rem;
-    justify-content: center;
 }
 
 #turquesa a {
@@ -92,20 +85,16 @@ header {
     text-decoration: underline;
 }
 
-main {
-    padding-top: 10rem;
-    background-image: url("https://i.pinimg.com/736x/60/31/0f/60310fc4a0c87368f4b4e0df529e4cf9.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+/* =================== MAIN =================== */
 
-main img {
-    position: absolute;
-    top: 0;
-    left: 0;
+main {
+    padding-top: 12rem;
+    background-image: url("https://i.pinimg.com/736x/60/31/0f/60310fc4a0c87368f4b4e0df529e4cf9.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
     width: 100%;
-    z-index: -1; 
 }
 
 main h1 {
@@ -114,117 +103,61 @@ main h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: white;
-    margin: 10px 0; 
+    margin: 10px 0;
 }
 
-
-#curiosidades iframe{
-    max-width: 77rem;
+#curiosidades-pagina {
+    max-width: 1220px;
+    margin-inline: auto;
+    font-size: 1.4rem;
 }
 
-#curiosidades iframe:nth-child(1) {
+/* =================== VIDEOS SOBREPOSTOS =================== */
+
+#curiosidades {
     position: relative;
-    top: 16rem;
-    top: 1rem;
-    left: 5.5rem;
+    width: 100%;
+    padding: 12rem 0;
+    padding-bottom: 370rem; /* espaço suficiente para os 13 vídeos */
+    height: auto; /* deixa o conteúdo definir o tamanho */
 }
 
-#curiosidades iframe:nth-child(2) {
-    position: relative;
-    top: 39rem;
-    top: -19rem;
-    left: 55.5rem;
-    z-index: 3;
-}
-
-#curiosidades iframe:nth-child(3) {
-    position: relative;
-    top: 62rem;
-    top: -39rem;
-    left: 5.5rem;
-    z-index: 4;
-}
-
-#curiosidades iframe:nth-child(4) {
-    position: relative;
-    top: 85rem;
-    top: -59rem;
-    left: 55.5rem;
+/* Configuração geral dos vídeos */
+#curiosidades iframe {
+    position: absolute;
+    width: 70rem;
+    max-width: 90%;
+    height: 40rem;
+    border-radius: 1rem;
     z-index: 5;
 }
 
-#curiosidades iframe:nth-child(5) {
-    position: relative;
-    top: 108rem;
-    top: -79rem;
-    left: 5.5rem;
-    z-index: 6;
+/* Ímpares na esquerda */
+#curiosidades iframe:nth-child(odd) {
+    left: 5%;
 }
 
-#curiosidades iframe:nth-child(6) {
-    position: relative;
-    top: 131rem;
-    top: -99rem;
-    left: 55.5rem;
-    z-index: 7;
+/* Pares na direita */
+#curiosidades iframe:nth-child(even) {
+    right: 5%;
 }
 
-#curiosidades iframe:nth-child(7) {
-    position: relative;
-    top: 154rem;
-    top: -109rem;
-    left: 5.5rem;
-    z-index: 8;
-}
+/* Posições verticais com mais espaço (28rem) */
+#curiosidades iframe:nth-child(1) { top: 0rem; }
+#curiosidades iframe:nth-child(2) { top: 28rem; }
+#curiosidades iframe:nth-child(3) { top: 56rem; }
+#curiosidades iframe:nth-child(4) { top: 84rem; }
+#curiosidades iframe:nth-child(5) { top: 112rem; }
+#curiosidades iframe:nth-child(6) { top: 140rem; }
+#curiosidades iframe:nth-child(7) { top: 168rem; }
+#curiosidades iframe:nth-child(8) { top: 196rem; }
+#curiosidades iframe:nth-child(9) { top: 224rem; }
+#curiosidades iframe:nth-child(10) { top: 252rem; }
+#curiosidades iframe:nth-child(11) { top: 280rem; }
+#curiosidades iframe:nth-child(12) { top: 308rem; }
+#curiosidades iframe:nth-child(13) { top: 336rem; }
 
-#curiosidades iframe:nth-child(8) {
-    position: relative;
-    top: 177rem;
-    top: -129rem;
-    left: 55.5rem;
-    z-index: 9;
-}
-
-
-#curiosidades iframe:nth-child(9) {
-    position: relative;
-    top: 198.3rem;
-    top: -149.3rem;
-    left: 5.5rem;
-    z-index: 10;
-}
-
-
-#curiosidades iframe:nth-child(10) {
-    position: relative;
-    top: -169rem;
-    left: 55.5rem;
-    z-index: 10;
-}
-
-
-#curiosidades iframe:nth-child(11) {
-    position: relative;
-    top: -189rem;
-    left: 5.5rem;
-    z-index: 10;
-}
-
-
-#curiosidades iframe:nth-child(12) {
-    position: relative;
-    top: -209rem;
-    left: 55.5rem;
-    z-index: 10;
-}
-
-
-#curiosidades iframe:nth-child(13) {
-    position: relative;
-    top: -229rem;
-    left: 5.5rem;
-    z-index: 10;
-}
+/* =================== FOOTER =================== */
 
 .footer {
     background: #d2f4f1;
@@ -290,8 +223,26 @@ hr {
     margin-top: 2rem;
 }
 
-@media(max-width: 760px) {
-    body {
-        padding-inline: 1rem;
+/* =================== RESPONSIVO =================== */
+
+@media(max-width: 820px) {
+
+    /* Vídeos em coluna no celular */
+    #curiosidades iframe {
+        position: relative;
+        width: 100%;
+        height: 30rem;
+        margin: 2rem 0;
+        left: 0 !important;
+        right: 0 !important;
+        top: 0 !important;
+    }
+
+    #curiosidades {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
     }
 }
